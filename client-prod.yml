@@ -4,6 +4,8 @@ build:
 server:
   port : 8090
 
-
+info:
+  name: "vishal"
+  
 contact:
   services: "client-prod configuration for github repo /refresh 00"
