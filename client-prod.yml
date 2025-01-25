@@ -11,7 +11,7 @@ contact:
   services: "client-prod configuration for github repo /refresh 00"
 eureka:
   instance:
-    hostname: localhost
+    preferIpAddress : true
   client:
     fetchRegistry: true
     registerWithEureka : true
