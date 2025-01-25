@@ -9,3 +9,11 @@ info:
   
 contact:
   services: "client-prod configuration for github repo /refresh 00"
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: true
+    registerWithEureka : true
+    serviceUrl: 
+      defaultZone: http://localhost:8070/eureka/
